@@ -6,7 +6,7 @@ import HomePage from "./home.vue";
 const routes = [
   { path: "/login", component: LoginPage },
   { path: "/register", component: RegisterPage },
-  { path: "/home", component: HomePage },
+  { path: "/", component: HomePage },
 ];
 
 const router = createRouter({
